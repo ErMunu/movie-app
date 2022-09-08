@@ -29,7 +29,7 @@ export default function movies(state = initialMoviesState, action) {
                 favourites: filteredArray
             }
         case SET_SHOW_FAVOURITES:
-            return{
+            return {
                 ...state,
                 showFavourites: action.val
             }
